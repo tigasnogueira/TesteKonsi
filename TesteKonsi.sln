@@ -41,6 +41,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{0BD8DAEA-277
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konsi.Api", "src\Konsi.Service\Konsi.Api\Konsi.Api.csproj", "{30070E8E-5356-43EC-B2D0-B94E326736AC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konsi.Tests", "tests\Konsi.Tests\Konsi.Tests.csproj", "{382AC1EE-4174-487C-857E-B1CF42E28D65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{30070E8E-5356-43EC-B2D0-B94E326736AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30070E8E-5356-43EC-B2D0-B94E326736AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30070E8E-5356-43EC-B2D0-B94E326736AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382AC1EE-4174-487C-857E-B1CF42E28D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382AC1EE-4174-487C-857E-B1CF42E28D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382AC1EE-4174-487C-857E-B1CF42E28D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382AC1EE-4174-487C-857E-B1CF42E28D65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +99,7 @@ Global
 		{3B6DE8FD-16FF-428A-ADE6-C8F802E3CFE8} = {2AC20358-BA6D-4E82-B1A6-FCCB3B22E9E6}
 		{0BD8DAEA-277D-4497-AAB9-2F17D6F4CC8B} = {F2FCBC9B-C857-40AD-89B4-B7679AEE0BCB}
 		{30070E8E-5356-43EC-B2D0-B94E326736AC} = {0BD8DAEA-277D-4497-AAB9-2F17D6F4CC8B}
+		{382AC1EE-4174-487C-857E-B1CF42E28D65} = {87F3F656-F84A-4331-A1EA-12CE8BDABFDE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A94D22D4-A76A-44DF-8251-D36B7F094560}

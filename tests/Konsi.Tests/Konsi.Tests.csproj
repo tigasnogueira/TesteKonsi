@@ -21,4 +21,13 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Api\Controllers\" />
+    <Folder Include="Api\Dtos\" />
+    <Folder Include="Api\Services\" />
+    <Folder Include="Crawler\Services\" />
+    <Folder Include="QueueProcessor\Services\" />
+    <Folder Include="Web\Controllers\" />
+  </ItemGroup>
+
 </Project>
