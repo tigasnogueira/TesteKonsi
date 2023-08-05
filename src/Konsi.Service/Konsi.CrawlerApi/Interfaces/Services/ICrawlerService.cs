@@ -3,4 +3,5 @@
 public interface ICrawlerService
 {
     Task<List<string>> GetMatriculas(string cpf, string username, string password);
+    Task<string> GetMatriculaData(string matricula);
 }

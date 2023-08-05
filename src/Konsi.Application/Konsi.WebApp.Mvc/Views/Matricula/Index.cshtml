@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Busca de Matrícula";
+}
+
+<h1>Busca de Matrícula</h1>
+
+<form method="post" action="@Url.Action("Search", "Matricula")">
+    <label for="cpf">CPF:</label>
+    <input type="text" id="cpf" name="cpf" required>
+    <button type="submit">Buscar</button>
+</form>
+
+@if (Model != null)
+{
+    <h2>Dados da Matrícula:</h2>
+    <p>@Model</p>
+}

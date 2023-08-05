@@ -3,4 +3,5 @@
 public interface IQueueService
 {
     void EnqueueMatriculas(List<string> matriculas);
+    string DequeueMatricula();
 }

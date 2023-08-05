@@ -11,7 +11,24 @@ public class CrawlerService : ICrawlerService
     {
         _httpClient = httpClient;
     }
-    
+
+    public async Task<string> GetMatriculaData(string matricula)
+    {
+        // URL do site que você está tentando fazer o crawling
+        var url = $"https://www.example.com/matricula/{matricula}";
+
+        // Baixe o HTML da página
+        var web = new HtmlWeb();
+        var doc = await web.LoadFromWebAsync(url);
+
+        // Faça o parsing do HTML para extrair os dados da matrícula
+        // Esta parte dependeria da estrutura específica do HTML da página
+        var node = doc.DocumentNode.SelectSingleNode("//div[@class='matricula-data']");
+        var matriculaData = node?.InnerText.Trim();
+
+        return matriculaData;
+    }
+
     public async Task<List<string>> GetMatriculas(string cpf, string username, string password)
     {
         // Fazer login no site
